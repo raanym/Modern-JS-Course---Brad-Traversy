@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <title>GitHub Finderr</title>
+</head>
+
+<body>
+  <nav class='bg-blue-500 h-16 sm:h12 flex items-center sticky top-0 w-full'>
+    <div class="container mx-auto px-5">
+      <a href="#" class='text-2xl text-white hover:text-blue-400'>Github Finder</a>
+    </div>
+  </nav>
+
+  <div class="container px-5 mt-5 mx-auto" id='search'>
+    <div class="container p-3 border border-gray-300 rounded-lg search-container">
+      <h1 class='text-black text-black text-2xl sm:text-5xl font-bold'>Search Github Users</h1>
+      <p class='sm:text-2xl text-1xl mt-2 font-light text-gray-400'>Enter a username to fetch a user profile and repos
+      </p>
+      <input type="text"
+        class='w-full mt-2 py-2 px-2 border rounded border-gray-200 border-transparent focus:outline-none focus:ring-2 focus:ring-blue-400'
+        placeholder='Enter the username' id='w-input'>
+    </div>
+    <br>
+    <div id="profile">
+      <!-- <div class="container p-5 mt-3 border border-gray-300 rounded-lg mt-2 sm:flex sm:justify-between">
+        <div class="flex flex-col items-center justify-center">
+          <img src="https://avatars.githubusercontent.com/u/66156416?v=4" alt="" class='rounded-3xl h-auto w-60'>
+          <a href=""
+            class='inline-block mt-2 text-center bg-blue-500 px-4 py-2 rounded text-white hover:bg-blue-400'>View
+            Profile</a>
+        </div>
+        <div class='px-2 mt-4 flex-grow flex items-center flex-wrap justify-center sm:block'>
+          <span class='bg-blue-500 text-white py-2 sm:px-5 px-1 mr-1 my-1 inline-block rounded'>Public Repos</span>
+          <span class='bg-gray-500 text-white py-2 sm:px-5 px-1 mr-1 my-1 inline-block rounded'>Public Repos</span>
+          <span class='bg-green-500 text-white py-2 sm:px-5 px-1 mr-1 my-1 inline-block rounded'>Public Repos</span>
+          <span class='bg-yellow-500 text-white py-2 sm:px-5 px-1 mr-1 my-1 inline-block rounded'>Public Repos</span>
+          <ul class='border rounded mt-4 flex-grow'>
+            <li class='p-1 border border-gray-100'>User ID: ${user.login}</li>
+            <li class='p-1 border border-gray-100'>Company: ${user.company}</li>
+            <li class='p-1 border border-gray-100'>Website/Blog: ${user.blog}</li>
+            <li class='p-1 border border-gray-100'>Location: ${user.location}</li>
+            <li class='p-1 border border-gray-100'>Member Since: ${user.created_at}</li>
+          </ul>
+        </div>
+      </div> -->
+      <!-- <div id='repos' class='mt-2'>
+        <h3 class='text-black text-2xl font-bold sm:text-3xl'>Latest Repos</h3>
+        <div class='border border-gray-300 rounded-lg mt-3 py-4 px-4'>
+          <div class="">
+            <div>
+              <a href='${repo.html_url}' target='_blank' class='text-xl inline-block my-2'>${repo.name}</a>
+            </div>
+            <div class='p-2'>
+              <span class='bg-blue-500 text-xs text-white py-2 px-5 mr-1 my-1 inline-block rounded'>Stars:
+                ${repo.stargazers_count}</span>
+              <span class='bg-gray-500 text-xs text-white py-2 px-5 mr-1 my-1 inline-block rounded'>Watchers:
+                ${repo.watchers_count}</span>
+              <span class='bg-green-500 text-xs text-white py-2 px-5 mr-1 my-1 inline-block rounded'>Public Followers:
+                ${repo.forms_count}</span>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+
+  <footer class="mt-5 p-3 text-center bg-gray-100">Github Finder &copy;</footer>
+
+  <script src="./github.js"></script>
+  <script src="./ui.js"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+{
+  "Budget": [
+    {
+      "Month": "January",
+      "Income": "10000",
+      "Spending": "5000",
+      "Saving": "5000",
+      "Savings RB": "15000"
+    },
+    {
+      "Month": "February",
+      "Income": "10400",
+      "Spending": "5000",
+      "Saving": "2000",
+      "Savings RB": "17000"
+    },
+    {
+      "Month": "March",
+      "Income": "10050",
+      "Spending": "5050",
+      "Saving": "4500",
+      "Savings RB": "21500"
+    },
+    {
+      "Month": "April",
+      "Income": "9200",
+      "Spending": "6200",
+      "Saving": "0",
+      "Savings RB": "21000"
+    },
+    {
+      "Month": "May",
+      "Income": "16300",
+      "Spending": "14300",
+      "Saving": "2000",
+      "Savings RB": "23000"
+    },
+    {
+      "Month": "June",
+      "Income": "9400",
+      "Spending": "6900",
+      "Saving": "7000",
+      "Savings RB": "26500"
+    },
+    {
+      "Month": "July",
+      "Income": "10600",
+      "Spending": "6600",
+      "Saving": "5000",
+      "Savings RB": "31500"
+    },
+    {
+      "Month": "August",
+      "Income": "9800",
+      "Spending": "6000",
+      "Saving": "4800",
+      "Savings RB": "38700"
+    },
+    {
+      "Month": "September",
+      "Income": "10900",
+      "Spending": "5000",
+      "Saving": "8000",
+      "Savings RB": "46700"
+    },
+    {
+      "Month": "October",
+      "Income": "10600",
+      "Spending": "4500",
+      "Saving": "6100",
+      "Savings RB": "52800"
+    },
+    {
+      "Month": "November",
+      "Income": "10500",
+      "Spending": "5500",
+      "Saving": "5000",
+      "Savings RB": "57800"
+    },
+    {
+      "Month": "December",
+      "Income": "13000",
+      "Spending": "5100",
+      "Saving": "7900",
+      "Savings RB": "65700"
+    }
+  ],
+  "Spending Forecast": [
+    {
+      "5000": "4000",
+      "Expense": "Home",
+      "MVR": "1000"
+    },
+    {
+      "5000": "3790",
+      "Expense": "Phone Bill",
+      "MVR": "210"
+    },
+    {
+      "5000": "3640",
+      "Expense": "Cosmetics",
+      "MVR": "150"
+    },
+    {
+      "5000": "3140",
+      "Expense": "Clothing - office fatloon",
+      "MVR": "500"
+    },
+    {
+      "5000": "2140",
+      "Expense": "Food",
+      "MVR": "1000"
+    },
+    {
+      "5000": "1910",
+      "Expense": "Cycle Maintenance",
+      "MVR": "230"
+    },
+    {
+      "5000": "1410",
+      "Expense": "Shopping",
+      "MVR": "500"
+    },
+    {
+      "5000": "1060",
+      "Expense": "dinner night",
+      "MVR": "350"
+    },
+    {
+      "5000": "1060"
+    },
+    {
+      "5000": "1060"
+    },
+    {
+      "5000": "1060"
+    },
+    {
+      "5000": "1060"
+    }
+  ]
+}
